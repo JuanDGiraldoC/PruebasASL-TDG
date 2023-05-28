@@ -1,17 +1,13 @@
-package starter.stepdefinitions;
+package com.athleticsportline.stepdefinitions;
 
-import io.cucumber.java.Before;
-import io.cucumber.java.ParameterType;
+import com.athleticsportline.navigation.NavigateTo;
+import com.athleticsportline.search.LookForInformation;
+import com.athleticsportline.search.WikipediaArticle;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.actors.OnStage;
-import net.serenitybdd.screenplay.actors.OnlineCast;
 import net.serenitybdd.screenplay.ensure.Ensure;
-import starter.navigation.NavigateTo;
-import starter.search.LookForInformation;
-import starter.search.WikipediaArticle;
 
 public class SearchStepDefinitions {
 
